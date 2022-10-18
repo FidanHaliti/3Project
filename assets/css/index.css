@@ -149,7 +149,7 @@
     width: auto;
     color: aliceblue;
     margin: 0px auto;
-    height: 250px;
+    height: 280px;
   }
   .first h1 {
     margin: 15px;
@@ -157,12 +157,14 @@
     font-family: var(--title);
   }
   .first input {
-    margin-top: 20px;
+    
     background-color: var(--link-color);
     color: aliceblue;
     border: none;
     width: 180px;
-    height: 50px;
+    height: 40px;
+    font-size: 12px;
+    
   }
   .first input:hover {
     opacity: 0.8;
@@ -395,6 +397,7 @@
   #button:hover {
     opacity: 0.8;
   }
+
 }
 @media (min-width: 766px) {
   
@@ -793,6 +796,7 @@
   }
   
   header {
+    
     height: 80px;
     padding: 0px 165px 0px 165px;
     display: flex;
@@ -803,6 +807,8 @@
     align-items: center;
     color: antiquewhite;
     background-color: black;
+    
+    
   }
   .logo {
     z-index: 1;
@@ -1150,4 +1156,5 @@ form textarea{
   #button:hover {
     opacity: 0.8;
   }
+  
 }
